@@ -46,15 +46,15 @@ const GitHubLink = styled.a`
 
 const ShareButtons = ({ slug, title, emoji }) => {
   const encodedTitle = encodeURIComponent(
-    `${emoji || "🐱"}${title} | CatKnows`
+    `${emoji || "🐱"}${title} | RatBitesBack`
   );
-  const pageUrl = `https://catnose99.com${slug}`;
+  const pageUrl = `https://ratbitesback.com${slug}`;
   return (
     <Wrapper>
       <ShareTitle>SHARE</ShareTitle>
       <ShareLinks>
         <ShareLink
-          href={`https://twitter.com/share?url=${pageUrl}&text=${encodedTitle}&via=catnose99`}
+          href={`https://twitter.com/share?url=${pageUrl}&text=${encodedTitle}&via=fjsh_app`}
           rel="nofllow"
         >
           <img
@@ -83,7 +83,7 @@ const ShareButtons = ({ slug, title, emoji }) => {
         </ShareLink>
       </ShareLinks>
       <GitHubLink
-        href={`https://github.com/catnose99/CatKnows/edit/master/content/blog${slug}index.md`}
+        href={`https://github.com/fj-sh/ratbitesback/edit/master/content/blog${slug}index.md`}
         rel="nofllow"
       >
         Edit on GitHub
