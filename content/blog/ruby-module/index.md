@@ -1,5 +1,5 @@
 ---
-title: "[Ruby] Understanding the module"
+title: "A Beginner's Guide to Modules in Ruby"
 date: "2020-01-09T02:01:01.284Z"
 category: "dev"
 description: "How to use Ruby module"
