@@ -19,6 +19,8 @@ TypetalkからAWS Lambda（正確にはAPI Gateway）に投稿を投げて、pos
 - CloudWatchのログを見ながらLambda上のRubyを作っていく
 - Lambda上の環境変数にTypetalk Tokenを設定する
 - TypetalkトークンがあればLambdaからTypetalkに投稿できる
+- Lambdaからの投稿を受け取るためのbotを作成する
+  - オウム返しのためにはOutgoing Webhooks（投げる用）とIncoming Webhooks（受け取る用）の2つのbotを用意する必要がある。
 
 
 ## Lambda側のコード
