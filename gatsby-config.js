@@ -5,7 +5,7 @@ module.exports = {
     description: `fjsh's personal blog.`,
     siteUrl: `https://ratbitesback.com`,
     social: {
-      twitter: `fjsh_app`,
+      twitter: `fjsh_dev`,
     },
     categories: [
       {
@@ -16,6 +16,11 @@ module.exports = {
       {
         name: "Self",
         slug: "self",
+        color: "#ffa22b",
+      },
+      {
+        name: "Review",
+        slug: "review",
         color: "#ffa22b",
       },
     ],
@@ -115,7 +120,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rat Bites Back | fjsh's blog`,
+        name: `Rat Bites Back`,
         short_name: `RatBitesBack`,
         start_url: `/`,
         background_color: `rgb(33, 36, 45)`,

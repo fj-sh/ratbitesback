@@ -110,7 +110,7 @@ const Bio = () => {
                   <img src={svgEmail} alt="" />
                   <div>E-mail</div>
                 </BioLink>
-                <BioLink href="https://twitter.com/fjsh_app">
+                <BioLink href="https://twitter.com/fjsh_dev">
                   <img src={svgTwitter} alt="Twitter" />
                   <div>Twitter</div>
                 </BioLink>

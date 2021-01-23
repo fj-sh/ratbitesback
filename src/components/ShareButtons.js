@@ -54,7 +54,7 @@ const ShareButtons = ({ slug, title, emoji }) => {
       <ShareTitle>SHARE</ShareTitle>
       <ShareLinks>
         <ShareLink
-          href={`https://twitter.com/share?url=${pageUrl}&text=${encodedTitle}&via=fjsh_app`}
+          href={`https://twitter.com/share?url=${pageUrl}&text=${encodedTitle}&via=fjsh_dev`}
           rel="nofllow"
         >
           <img

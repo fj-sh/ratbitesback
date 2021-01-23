@@ -36,9 +36,9 @@ const FollowLink = styled.a`
 const ShareButtons = () => {
   return (
     <Follow>
-      <FollowLink href="https://twitter.com/fjsh_app" rel="nofollow">
+      <FollowLink href="https://twitter.com/fjsh_dev" rel="nofollow">
         <img src={svgTwitterWhite} alt="Twitter" />
-        <div className="follow-link-text">@fjsh_appをフォロー</div>
+        <div className="follow-link-text">@fjsh_devをフォロー</div>
       </FollowLink>
     </Follow>
   );
